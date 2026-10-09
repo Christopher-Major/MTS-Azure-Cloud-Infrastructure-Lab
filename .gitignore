@@ -1,0 +1,32 @@
+﻿# Terraform local files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Credentials and private keys
+*.pem
+*.pfx
+*.p12
+*.key
+*.ppk
+.env
+.env.*
+!.env.example
+
+# Local configuration
+*.local.json
+secrets.json
+
+# Generated administrative reports
+MTS-Azure-Resource-Inventory.csv
+
+# Temporary files
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini
